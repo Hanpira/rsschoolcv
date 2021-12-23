@@ -10,6 +10,7 @@
 + **Discord:** Hanna (@Hanpira)
 + **[Github](https://github.com/Hanpira)** 
 + **[LinkedIn](https://www.linkedin.com/in/hanna-ramanenka-543519229/)**
+
 ### Summary
 I've always being interested in information technologies as a way to make life better. After having been a medic for a while, i've decided to make my dream true and start developing in IT. I know how to cure people and I like medicine as a science but i believe that i have more opportunities to benefit people by evolving Information Technology. I'm interested in social projects, volunteering. Highly organized and detail-oriented, i have strong background in medical science. Participated in international conferences.
 
@@ -52,4 +53,3 @@ My CV
 + Selfeducation
 + Optimistic
 + Empathic
-
