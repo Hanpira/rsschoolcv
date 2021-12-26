@@ -3,7 +3,6 @@
 ### Personal Information
 **Location:** Minsk, Belarus
 
-**Date of birth:** 13 May 1994
 ### Contact information
 + **Phone number:** +37529365340
 + **Email:** annromania@gmail.com
@@ -12,7 +11,7 @@
 + **[LinkedIn](https://www.linkedin.com/in/hanna-ramanenka-543519229/)**
 
 ### Summary
-I've always being interested in information technologies as a way to make life better. After having been a medic for a while, i've decided to make my dream true and start developing in IT. I know how to cure people and I like medicine as a science but i believe that i have more opportunities to benefit people by evolving Information Technology. I'm interested in social projects, volunteering. Highly organized and detail-oriented, i have strong background in medical science. Participated in international conferences.
+I've always being interested in IT as a way to make life better. Highly organized and detail-oriented, i have strong background in medical science. Participated in international conferences. I know how to cure people but i believe that i have more opportunities to benefit people by evolving IT. I'm interested in social projects, volunteering.
 
 ### Objective
 Extremely motivated for career change goal.
@@ -29,6 +28,7 @@ function multiply(a, b){
  return a * b
 }
 ```
+
 ### Projects
 My CV 
 
@@ -42,14 +42,14 @@ My CV
 + 2021 up to present - The Rolling Scopes School, Javascript/Front-end, Stage 0  **in progress**
 
 ### Language Skills
-+ English - B1+
-+ Italian - B1+
++ English - B2
++ Italian - B2
 + Russian - Native
 + Belarusian - Native
 
 ### Personal Qualities
 + Accurate
 + Patient
-+ Selfeducation
++ Self-education
 + Optimistic
 + Empathic
