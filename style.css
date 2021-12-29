@@ -9,12 +9,17 @@ body {
 }
 header {
     position: sticky;
-    background: rgba(15, 20, 112, 0.7);
+    background: rgba(1, 28, 78, 0.897);
     color:lavenderblush;
 }
 
-nav {
-    position: sticky;
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
 }
 
 main {
@@ -24,10 +29,13 @@ main {
     text-align: justify;
 }
 
-#presentation {
+.presentation {
     box-shadow: lightblue;
-    ;
-
+    display: flex;
+    justify-content: space-between;
+}
+.img {
+    order: 1;
 }
 
 footer {
