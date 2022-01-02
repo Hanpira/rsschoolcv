@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Calibri, sans-serif;
+    font-size: 16px;
+    background: rgb(199, 204, 248);
+    margin: 0.1 auto;
+    line-height: 1.5;
+    margin-bottom: 12px;
+
+}
+header {
+    position: sticky;
+    background: rgba(1, 28, 78, 0.897);
+    color:lavenderblush;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: justify;
+}
+
+.presentation {
+    box-shadow: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+.img {
+    order: 1;
+}
+
+footer {
+    font-size: 10px;
+    text-align: justify;
+    background: rgb(22, 25, 75);
+    color:lavenderblush;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky bottom;
+}
