@@ -109,6 +109,7 @@ body {
 
 }
 
+
 .section-item a {
     color: darkorange;
     text-decoration: none;
@@ -128,6 +129,7 @@ body {
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+
 .section-subtitle {
     font-size: 18px;
     font-weight: 600;
@@ -139,6 +141,28 @@ body {
 .contact-item {
 
 }
+
+.contact-1 {
+    list-style-image: url(assets/icons/location.ico);
+}
+.contact-2 {
+    list-style-image: url(assets/icons/phone.ico);
+}
+
+.contact-3 {
+    list-style-image: url(assets/icons/email.ico);
+}
+.contact-4 {
+    list-style-image: url(assets/icons/discord.ico);
+}
+.contact-5 {
+    list-style-image: url(assets/icons/linkedin.ico);
+}
+.contact-6 {
+    list-style-image: url(assets/icons/github.ico);
+    height: auto;
+}
+
 .img {
     width: 300px;
     height: auto;
@@ -146,6 +170,7 @@ body {
     aspect-ratio: 1;
     border-radius: 40%;
 }
+
 .logo {
     width: 70px;
     height: auto;
