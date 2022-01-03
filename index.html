@@ -14,46 +14,51 @@
   <meta name="viewport" content="width=device-width, initial scale=1.0">
 </head>
 <body>
-   <header>
+   <header class="header">
       <div class="container">
          <nav class="nav">
             <ul class="nav-list">
-               <li><a href="#contacts">Contacts</a></li>
-               <li><a href="#summary">Summary</a></li>
-               <li><a href="#skills">Skills</a></li>
-               <li><a href="#projects">Projects</a></li>
-               <li><a href="#code">Code Example</a></li>
-               <li><a href="#language">Language</a></li>
-               <li><a href="#qualities">Qualities</a></li>
-               <li><a href="#courses">Courses</a></li>
-               <li><a href="#education">Education</a></li>
+               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+               <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+               <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+               <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+               <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+               <li class="nav-item"><a href="#qualities"class="nav-link">Qualities</a></li>
+               <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+               <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
             </ul>
          </nav>
       </div>
    </header>
    <main class="main">
-      <div class="container">
-         <section class="section-profile" id="profile">
+      <div class="container main-container">
+         <section class="section section-profile" id="profile">
             <img src="./assets/images/pro_ph.png" class='img' alt="Photo Profile">
-            <h1>Hanna Ramanenka</h1>
-            <h2>Junior Front-end Developer</h2>
+            <div class="section-profile-title"> 
+               <h1 class="section-title main-title">Hanna Ramanenka</h1>
+               <h3 class="section-subtitle">Junior Front-end Developer</h3>
+            </div>
          </section>
    <!-- change contact information-->
-         <section class="section-contacts" id="contacts">
-               <h2>Contacts</h2>
-               <ul>
-                  <li>Phone number: +375293653407</li>
-                  <li>Email: annromania@gmail.com</li>
-                  <li>Discord: Hanna (@Hanpira)</li>
+         <section class="section" id="contacts">
+               <h2 class="section-title">Contacts</h2>
+               <ul class="section-list">
+                  <li class="section-item contact-item">Minsk, Belarus </li>
+                  <li class="section-item contact-item">Phone number: +375293653407</li>
+                  <li class="section-item contact-item" title="email">Email: <a href="mailto:annromania@gmail.com">annromania@gmail.com</a></li>
+                  <li class="section-item contact-item">Discord: Hanna (@Hanpira)</li>
+                  <li class="section-item contact-item">LinkedIn: <a href="https://www.linkedin.com/in/hanna-ramanenka-543519229/" title="linkedin">Hanna Ramanenka</a></li>
+                  <li class="section-item contact-item">Github: <a href="https://github.com/Hanpira" title="github">Hanpira</a></li>
                </ul>
          </section>
-         <section class="section-summary" id="summary">
-            <h2>Summary</h2>
+         <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
             <p>I've always been interested in IT as a way to make life better. Highly organized and detail-oriented, i have strong background in medical science. Participated in international conferences. I know how to cure people but i believe that i have more opportunities to benefit people by evolving IT. I'm interested in social projects, volunteering.
             </p>
          </section>
-         <section class="section-skills" id="skills">
-            <h2> Skills </h2>
+         <section class="section" id="skills">
+            <h2 class="section-title"> Skills </h2>
             <div>
                <ul>
                   <li>HTML5, CSS3, Markdown</li>
@@ -63,13 +68,13 @@
                </ul>
             </div>
          </section>
-         <section class="section-projests" id="projects">
-            <h2>Projects</h2>
+         <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
             <p>My CV is my first project.
             </p>
          </section>
-         <section class="section-snippet" id="code">
-            <h2>Code Example</h2>
+         <section class="section" id="code">
+            <h2 class="section-title">Code Example</h2>
             <pre class="pre">
                <code>
       JavaScript
@@ -83,8 +88,8 @@
                </code>
             </pre>
          </section>
-         <section class="section-language" id="language">
-            <h2>Language</h2>
+         <section class="section" id="language">
+            <h2 class="section-title">Language</h2>
             <div>
                <ul>
                   <li>English - B2</li>
@@ -94,24 +99,24 @@
                </ul>
             </div>
          </section>
-         <section class="section-courses" id="courses">
-            <h2>Courses</h2>
+         <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
             <div>
                <ul>
-               <li>HTML and CSS Tutorials on [Code Basics](https://ru.code-basics.com/)</li>
-               <li>Intro to GIT Tutorial on  [Hexlet](https://ru.hexlet.io/)</li>
-               <li>JavaScript [Tutorial](https://learn.javascript.ru/)</li>
-               <li>Javascript/Front-end, Stage 0 in progress, The Rolling Scopes School</li>
+               <li>Code Basics - HTML and CSS Tutorials</li>
+               <li>Hexlet - Intro to GIT Tutorial</li>
+               <li>Learn.javascript.ru - JavaScript Manual</li>
+               <li>The Rolling Scopes School - Javascript/Front-end, Stage 0 in progress</li>
             </ul>
             </div>
          </section>
-         <section class="section-education" id="education">
-            <h2>Education</h2>
+         <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
             <p>2011-2017 - Belarusian State Medical University, General Medicine, M/D., Physician
             </p>
          </section>
-         <section class="section-qualities" id="qualities">
-            <h2>Personal Qualities</h2>
+         <section class="section" id="qualities">
+            <h2 class="section-title">Personal Qualities</h2>
             <div>
                <ul>
                   <li>Accurate</li>
@@ -125,13 +130,17 @@
       </div>
    </main>
    <footer class="footer">
-      <!--icon github +a href -->
-      <div>[Github](https://github.com/Hanpira)
-      </div>
-      <div>[LinkedIn](https://www.linkedin.com/in/hanna-ramanenka-543519229/)
-      </div>
-      <!--logo rsschool -->
-      <div>2021</div>
+         <div class="container footer-container">
+            <div><a href="https://github.com/Hanpira" title="github-profile"><img src="assets/svg/github_logo.svg" class="logo"></a>
+            </div>
+            <div><a href="https://www.linkedin.com/in/hanna-ramanenka-543519229/"><img src="assets/svg/linked_logo.svg" alt="linkedin" class="logo"></a>
+            </div>
+            <div>
+           2022
+            </div>
+            <div><a href="https://rs.school/js/" title="rsschool/js"><img src="assets/svg/rs_school_js.svg" alt="rsschool/js"class="logo"></a>
+            </div>
+         </div>
    </footer>
 </body>
 </html>
