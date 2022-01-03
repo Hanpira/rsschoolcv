@@ -1,44 +1,30 @@
+*{
+    box-sizing: border-box;
+}
 body {
-    font-family: Arial, Calibri, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     background: rgb(199, 204, 248);
-    margin: 0.1 auto;
-    line-height: 1.5;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     margin-bottom: 12px;
-
 }
-header {
+.header {
     position: sticky;
     background: rgba(1, 28, 78, 0.897);
     color:lavenderblush;
 }
-
-nav ul{
-    list-style-type: none;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-main {
+.main {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     text-align: justify;
 }
-
-.presentation {
-    box-shadow: lightblue;
-    display: flex;
-    justify-content: space-between;
-}
-.img {
-    order: 1;
-}
-
-footer {
+.footer {
     font-size: 10px;
     text-align: justify;
     background: rgb(22, 25, 75);
@@ -48,3 +34,57 @@ footer {
     justify-content: space-between;
     position: sticky bottom;
 }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav-list {
+    list-style-type: none;
+    overflow: hidden;
+}
+.list-item {
+    float: left;
+}
+
+.section-profile {
+
+}
+.section-contacts {
+
+}
+.section-summary {
+
+}
+.section-skills{
+
+}
+.section-projects {
+
+}
+.section-snippet {
+
+}
+.section-language {
+
+}
+.section-courses {
+
+}
+.section-education {
+
+}
+.section-qualities {
+
+}
+.img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
