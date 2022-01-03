@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #06266F;
+    background: #6C8CD5 0.75;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    position: sticky;
+    background: #06266F;
+    color:#A66F00;
+    font-weight: 600;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: justify;
+}
+
+.section {
+    width: 50%;
+    border-bottom: 1px double #06266F;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: justify;
+    background: #2A4480;
+    font-size: 18px;
+    color: #A66F00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    position: sticky bottom;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-item {
+    color: darkgoldenrod;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+.nav-item a {
+    color: darkgoldenrod;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+.nav-item a:hover {
+    color: #009999;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .4s;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: darkgoldenrod;
+    letter-spacing: 3px;
+}
+.section-list {
+
+}
+
+.section-item a {
+    color: darkorange;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+.section-item a:hover {
+    color: darkorange;
+}
+.section-profile-title {
+        position: relative;
+        padding-left: 30px;
+}
+
+.main-title {
+    font-size: 20;
+    color: #06266F;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.section-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #06266F;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.contact-item {
+
+}
+.img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1;
+    border-radius: 40%;
+}
+.logo {
+    width: 70px;
+    height: auto;
+}
