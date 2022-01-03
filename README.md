@@ -1,4 +1,6 @@
 # rsschool-cv
-CV
-https://Hanpira.github.io/rsschool-cv/cv
-https://Hanpira.github.io/rsschool-cv/
+My CV
+
+https://hanpira.github.io/rsschool-cv/cv
+
+https://hanpira.github.io/rsschool-cv/
