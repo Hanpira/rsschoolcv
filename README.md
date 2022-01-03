@@ -1,2 +1,1 @@
-# rsschool-cv
-CV
+https://hanpira.github.io/rsschool-cv/
