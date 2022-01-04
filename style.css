@@ -1,14 +1,17 @@
 html {
     scroll-behavior: smooth;
 }
+
 *{
     box-sizing: border-box;
 }
+
 @media (max-width: 768px) {
     .section {
         width: 100%;
     }
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -38,6 +41,7 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     text-align: justify;
+    margin-top: 20px;
 }
 
 .section {
@@ -50,6 +54,17 @@ body {
     height: auto;
 }
 
+.container {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .footer {
     text-align: justify;
     background: #2A4480;
@@ -60,15 +75,6 @@ body {
     padding: 0;
 }
 
-.container {
-    max-width: 1440px;
-    padding: 0 20px;
-    margin: 0 auto;
-}
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
 .footer-container {
     display: flex;
     flex-direction: row;
@@ -95,36 +101,42 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
 }
+
 .nav-item {
-    color: darkgoldenrod;
+    color: #b6850bfd;
     text-decoration: none;
     transition: color 0.4s;
 }
+
 .nav-item a {
-    color: darkgoldenrod;
+    color: #b8860b;
     text-decoration: none;
     transition: color 0.4s;
 }
+
 .nav-item a:hover {
     color: #009999;
 }
+
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
     transition: .4s;
 }
+
 .section-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5;
     text-transform: uppercase;
-    color: darkgoldenrod;
+    color: #b8860b;
     letter-spacing: 3px;
 }
 
@@ -133,9 +145,11 @@ body {
     text-decoration: none;
     transition: color 0.4s;
 }
+
 .section-item a:hover {
     color: darkorange;
 }
+
 .section-profile-title {
         position: relative;
         padding-left: 30px;
@@ -157,12 +171,15 @@ body {
 }
 
 .contact-item {
-
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
 .contact-1 {
     list-style-image: url(assets/icons/location.ico);
 }
+
 .contact-2 {
     list-style-image: url(assets/icons/phone.ico);
 }
@@ -170,15 +187,17 @@ body {
 .contact-3 {
     list-style-image: url(assets/icons/email.ico);
 }
+
 .contact-4 {
     list-style-image: url(assets/icons/discord.ico);
 }
+
 .contact-5 {
     list-style-image: url(assets/icons/linkedin.ico);
 }
+
 .contact-6 {
     list-style-image: url(assets/icons/github.ico);
-    height: auto;
 }
 
 .img {
@@ -187,5 +206,10 @@ body {
     object-fit: cover;
     aspect-ratio: 1;
     border-radius: 40%;
+    padding-left: 10px;
 }
 
+.pre {
+    background-color: #82a0f429;
+    border-radius: 40px;
+}
