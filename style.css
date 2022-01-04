@@ -104,6 +104,8 @@ body {
 
 .nav-list {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
@@ -210,6 +212,8 @@ body {
 }
 
 .pre {
+    padding: 0;
+    margin: 0px;
     background-color: #82a0f429;
     border-radius: 40px;
 }
