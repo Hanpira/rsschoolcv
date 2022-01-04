@@ -18,17 +18,21 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #06266F;
-    background: #6C8CD5 0.75;
+    background: #82a0f429;
     min-height: 100vh;
     margin: 0;
     padding: 0;
 }
+
 .header {
     position: sticky;
     background: #06266F;
     color:#A66F00;
     font-weight: 600;
+    margin: 0;
+    padding: 0;
 }
+
 .main {
     display: flex;
     flex-direction: column;
@@ -41,21 +45,24 @@ body {
     border-bottom: 1px double #06266F;
 }
 
+.logo {
+    width: 60px;
+    height: auto;
+}
+
 .footer {
-    font-size: 10px;
     text-align: justify;
     background: #2A4480;
     font-size: 18px;
     color: #A66F00;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: block;
     margin: 0;
     padding: 0;
-    position: sticky bottom;
 }
+
 .container {
     max-width: 1440px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 .main-container {
@@ -65,9 +72,24 @@ body {
 .footer-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
 }
+
+.footer-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.footer-year {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .nav {
     display: flex;
     flex-direction: column;
@@ -105,9 +127,6 @@ body {
     color: darkgoldenrod;
     letter-spacing: 3px;
 }
-.section-list {
-
-}
 
 .section-item a {
     color: darkorange;
@@ -128,6 +147,7 @@ body {
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+
 .section-subtitle {
     font-size: 18px;
     font-weight: 600;
@@ -139,6 +159,28 @@ body {
 .contact-item {
 
 }
+
+.contact-1 {
+    list-style-image: url(assets/icons/location.ico);
+}
+.contact-2 {
+    list-style-image: url(assets/icons/phone.ico);
+}
+
+.contact-3 {
+    list-style-image: url(assets/icons/email.ico);
+}
+.contact-4 {
+    list-style-image: url(assets/icons/discord.ico);
+}
+.contact-5 {
+    list-style-image: url(assets/icons/linkedin.ico);
+}
+.contact-6 {
+    list-style-image: url(assets/icons/github.ico);
+    height: auto;
+}
+
 .img {
     width: 300px;
     height: auto;
@@ -146,7 +188,4 @@ body {
     aspect-ratio: 1;
     border-radius: 40%;
 }
-.logo {
-    width: 70px;
-    height: auto;
-}
+
