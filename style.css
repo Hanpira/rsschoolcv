@@ -141,13 +141,13 @@ body {
 }
 
 .section-item a {
-    color: darkorange;
+    color: #ff8c00;
     text-decoration: none;
     transition: color 0.4s;
 }
 
 .section-item a:hover {
-    color: darkorange;
+    color: #009999;
 }
 
 .section-profile-title {
@@ -212,4 +212,9 @@ body {
 .pre {
     background-color: #82a0f429;
     border-radius: 40px;
+}
+
+.footer-p {
+    text-align: center;
+    font-size: 18px;
 }
