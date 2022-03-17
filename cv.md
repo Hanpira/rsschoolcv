@@ -4,7 +4,7 @@
 **Location:** Minsk, Belarus
 
 ### Contact information
-+ **Phone number:** +37529365340
++ **Phone number:** +375293653407
 + **Email:** annromania@gmail.com
 + **Discord:** Hanna (@Hanpira)
 + **[Github](https://github.com/Hanpira)** 
@@ -30,7 +30,8 @@ function multiply(a, b){
 ```
 
 ### Projects
-My CV 
++ [CV](https://hanpira.github.io/rsschool-cv/)
++ [Portfolio]()
 
 ### Education
 2011-2017 - Belarusian State Medical University, General Medicine, M/D., Physician
@@ -39,7 +40,8 @@ My CV
 + HTML and CSS Tutorials on [Code Basics](https://ru.code-basics.com/)
 + Intro to GIT Tutorial on  [Hexlet](https://ru.hexlet.io/)
 + JavaScript [Tutorial](https://learn.javascript.ru/)
-+ 2021 up to present - The Rolling Scopes School, Javascript/Front-end, Stage 0  **in progress**
++ The Rolling Scopes School, Javascript/Front-end, Stage 0 (Pre-school)
++ The Rolling Scopes School, Javascript/Front-end, Stage 1 **in progress**
 
 ### Language Skills
 + English - B2
